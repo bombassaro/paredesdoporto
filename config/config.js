@@ -28,17 +28,17 @@ const envVarsSchema = Joi.object({
   MANAGER_ENABLED: Joi.boolean()
     .default(true),
   MANAGER_TOKEN: Joi.string()
-    .default('71Ycy0qyYqCA7xK5rH04LOW2lK'),
+    .default('71'),
   MANAGER_HOST: Joi.string()
-    .default('http://178.128.7.43/v1/public'),
+    .default('http'),
   NOTIFICATION_PROVIDER: Joi.string()
     .default('onesignal'),
   ONESIGNAL_APP_KEY: Joi.string()
-    .default('MzgxYTUyM2EtNjU3Mi00NGZmLTliOGUtY2EzODU3NjY5NTNh'),
+    .default('Mz'),
   ONESIGNAL_APP_ID: Joi.string()
-    .default('11567990-7195-443f-91c6-fc831633502b'),
+    .default('11'),
   SENDGRID_TOKEN: Joi.string()
-    .default('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')
+    .default('SG')
 }).unknown()
   .required();
 
